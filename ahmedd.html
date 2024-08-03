@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majd Alazam - Architecture & Interior Design Courses</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+        }
+
+        header {
+            background: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+
+        .button {
+            background: #4a148c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #6a1b9a;
+        }
+
+        .form-control {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .form-control input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background: #3a3a3a;
+            color: #fff;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .form-control input:focus {
+            border-color: #4a148c;
+            box-shadow: 0 0 5px rgba(74, 20, 140, 0.7);
+        }
+
+        .form-control label {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            color: #aaa;
+            pointer-events: none;
+            transition: 0.3s ease;
+            transform-origin: left;
+        }
+
+        .form-control input:focus + label,
+        .form-control input:not(:placeholder-shown) + label {
+            top: -10px;
+            font-size: 0.75em;
+            color: #ffffff; /* تغيير اللون إلى الأبيض */
+        }
+
+        .course-image {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .personal-accounts {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.personal-accounts h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.personal-accounts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.personal-accounts ul li {
+    margin-bottom: 10px;
+}
+
+.personal-accounts ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.personal-accounts ul li img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Welcome to <u>Majd Alazam</u> Architecture & Interior Design Courses</h1>
+        <h2>Explore Your Potential in Architecture and Design</h2>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h3>About Me</h3>
+            <p>My name is Majd Alazam, and I am passionate about Architecture and Interior Design. With extensive experience in the field, I have developed a deep understanding of design principles and their applications. My goal is to share this knowledge through comprehensive courses that empower learners.</p>
+
+            <h3>My Expertise</h3>
+            <p>I specialize in architectural design, space planning, and sustainable design practices. I have worked on various projects, helping clients create functional and aesthetically pleasing spaces.</p>
+
+            <img src="https://firasf.com/wp-content/uploads/2020/02/%D8%A7%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9.jpg" alt="Architecture Basics" class="course-image">
+            
+            <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><u>My accredited courses</u></h3>
+
+            <ul>
+                <li>Introduction to Architecture</li>
+                <li>Interior Design Fundamentals</li>
+                <li>3D Modeling with SketchUp</li>
+                <li>Residential Design Principles</li>
+                <li>Sustainable Architecture Practices</li>
+            </ul>         
+            <h3>Register for My Courses</h3>
+            <div class="form-control">
+                <input type="text" required placeholder=" ">
+                <label>Enter your name</label>
+            </div>
+            <div class="form-control">
+                <input type="email" required placeholder=" ">
+                <label>Enter your email</label>
+            </div>
+            <button class="button" type="submit">Register</button>
+        </div>
+    </div>
+    <div class="personal-accounts">
+        <h3>My Personal Accounts</h3>
+        <ul>
+            <center><li><a href="https://instagram.com/saqry_20" target="_blank"><img src="https://image.shutterstock.com/image-vector/instagram-icon-logo-vector-260nw-1211962336.jpg" alt="Instagram" width="20"> Instagram</a></li></center>
+            <center><li><a href="https://x.com/yourusername" target="_blank"><img src="https://image.shutterstock.com/image-vector/blue-social-media-logo-x-260nw-1693688425.jpg" alt="X" width="20"> X</a></li></center>
+           <center><li><a href="mailto:alsaqry16@gmail.com"><img src="https://image.shutterstock.com/image-vector/email-icon-logo-vector-260nw-1135642262.jpg" alt="Email" width="20"> Email</a></li></center>
+        </ul>
+    </div>   
+    <div class="footer">
+        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Thank you for visiting! I hope you find my courses helpful and enriching.</p>
+    </div>
+
+</body>
+</html>
